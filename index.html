@@ -7,11 +7,27 @@
 body { font-family: Arial, Helvetica, sans-serif;}
 header,h1 { text-align: center; }
 img {width: 100%;}
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
 </style>
 </head>
 <body style="background-color:#ff6600;">
 <header>
 <h1 class="title">Who's my favourite Su?</h1>
 </header>
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/bqzDuRz_P7g"></iframe>
+</div>
 </body>
 </html>
